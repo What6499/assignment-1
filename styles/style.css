@@ -4,7 +4,7 @@
 }
 
 body {
-  max-width: 1600px;
+  max-width: 83.33%;
   margin: 0 auto;
   font-family: "Fira Sans", serif;
   background-color: #f5f5f5;
@@ -29,6 +29,9 @@ nav div h3 {
   border: 1px solid #006a50;
   background: none;
   border-radius: 8px;
+  font-family: "Fira Sans", serif;
+  font-weight: 700;
+  font-size: 18px;
 }
 
 /* hero image section */
@@ -68,6 +71,15 @@ nav div h3 {
   border-radius: 8px;
   border: none;
   color: white;
+  font-family: "Fira Sans", serif;
+  font-weight: 700;
+  font-size: 18px;
 }
 
 /* pillars of bangladesh section */
+.pillars-card {
+  display: flex;
+  justify-content: space-between;
+}
+.card {
+}
