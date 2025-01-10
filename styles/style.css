@@ -1,0 +1,73 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  max-width: 1600px;
+  margin: 0 auto;
+  font-family: "Fira Sans", serif;
+  background-color: #f5f5f5;
+  box-sizing: border-box;
+}
+
+/* navbar */
+nav {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 24px;
+  margin-bottom: 44px;
+  align-items: center;
+}
+nav div h3 {
+  font-size: 32px;
+  font-weight: bold;
+}
+#sign-in {
+  padding: 15px 30px;
+  color: #006a50;
+  border: 1px solid #006a50;
+  background: none;
+  border-radius: 8px;
+}
+
+/* hero image section */
+
+.hero img {
+  background: none;
+}
+
+.hero-container {
+  display: flex;
+  justify-content: space-between;
+  background-color: #c6e4d6;
+  padding: 80px 60px;
+  border-radius: 24px;
+}
+.hero-context {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 615px;
+}
+.hero-title {
+  font-size: 24px;
+  font-weight: 500;
+  color: #0e0e0e;
+  opacity: 50%;
+}
+.hero-description {
+  margin-top: 16px;
+  margin-bottom: 24px;
+  font-size: 56px;
+  font-weight: bold;
+}
+.hero-container .btn {
+  background-color: #006a50;
+  padding: 17px 34px;
+  border-radius: 8px;
+  border: none;
+  color: white;
+}
+
+/* pillars of bangladesh section */
