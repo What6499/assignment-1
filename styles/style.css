@@ -228,6 +228,7 @@ nav div h3 {
 }
 .quote {
   line-height: 24px;
+  color: rgba(14, 14, 14, 0.8);
 }
 /* news section */
 .recent-section .btn {
