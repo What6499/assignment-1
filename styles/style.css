@@ -309,6 +309,7 @@ nav div h3 {
 .taka-cards {
   display: flex;
   justify-content: space-between;
+  margin: 0 50px;
 }
 .taka-cards .card {
   color: rgba(14, 14, 14, 0.8);
@@ -337,8 +338,7 @@ nav div h3 {
   text-align: center;
   border: none;
   border-bottom: 1px solid rgba(14, 14, 14, 0.15);
-  margin: 0 auto;
-  margin-top: 32px;
+  margin: 32px 65px 0px 65px;
   color: rgb(198, 228, 214);
 }
 .amount::placeholder {
@@ -390,6 +390,7 @@ nav div h3 {
   line-height: 24px;
   margin-top: 16px;
   margin-bottom: 24px;
+  color: rgba(14, 14, 14, 0.7);
 }
 .subscribe input {
   width: 600px;
@@ -410,15 +411,17 @@ nav div h3 {
   font-family: "Fira Sans", serif;
 }
 
-.sub-btn:hover{
+.sub-btn:hover {
   background-color: aliceblue;
   opacity: 90%;
 }
 .mix-up {
-  position: relative;
   display: flex;
   justify-content: center;
   margin-bottom: 25px;
+}
+.sub-footer {
+  color: rgba(14, 14, 14, 0.7);
 }
 
 /* footer */
