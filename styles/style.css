@@ -12,10 +12,8 @@ body {
 }
 .btn {
   cursor: pointer;
-
 }
-.btn:hover{
-  content: "";
+.btn:hover {
   transform: scale(1.1);
   transition: 0.1s ease-in-out;
   background-color: aliceblue;
@@ -109,10 +107,11 @@ nav div h3 {
 }
 .pillars-card .card {
   width: 302px;
-  height: 244px;
+  height: 234px;
   background-color: white;
   border-radius: 16px;
   padding: 24px;
+  border: 1px solid rgba(14, 14, 14, 0.15);
 }
 .pillars-card .card-title {
   font-size: 20px;
@@ -124,8 +123,14 @@ nav div h3 {
   line-height: 24px;
   font-size: 16px;
   color: rgba(14, 14, 14, 0.7);
+  width: 224px;
 }
-
+.pillars-card img{
+  margin-bottom: 24px;
+}
+.pillars-card .card-title{
+  margin-bottom: 12px;
+}
 /* vision-section */
 
 .vision-title {
@@ -162,6 +167,7 @@ nav div h3 {
   width: 410px;
   border-radius: 16px;
   position: relative;
+  border: 1px solid rgba(14, 14, 14, 0.15);
 }
 .vision-cards {
   display: flex;
@@ -209,6 +215,7 @@ nav div h3 {
   background-size: 64px;
   margin-top: 32px;
   margin-bottom: 80px;
+  border: 1px solid rgba(14, 14, 14, 0.15);
 }
 .dr-yunus .name {
   font-weight: 500;
@@ -224,7 +231,7 @@ nav div h3 {
   line-height: 24px;
 }
 /* news section */
-.recent-section .btn{
+.recent-section .btn {
   background-color: #006a50;
   padding: 13px 26px;
   border-radius: 8px;
@@ -234,47 +241,175 @@ nav div h3 {
   font-weight: 500;
   font-size: 18px;
 }
-.news-section{
+.news-section {
   display: flex;
   border-radius: 24px;
   background-color: white;
   gap: 32px;
   padding: 48px;
 }
-.news-section .satelite{
+.news-section .satelite {
   border-radius: 24px;
 }
-.news{
+.news {
   width: 744px;
 }
-.recent-texts{
+.recent-texts {
   line-height: 24px;
   font-size: 16px;
   color: rgba(14, 14, 14, 0.7);
-
 }
-.recent-title{
+.recent-title {
   font-weight: bold;
   font-size: 32px;
   margin-bottom: 12px;
   margin-top: 8px;
 }
-.al-jazeera{
+.al-jazeera {
   margin-bottom: 12px;
 }
-.recent-description{
+.recent-description {
   margin-top: 12px;
   margin-bottom: 32px;
 }
-.recent-date{
+.recent-date {
   font-size: 16px;
   color: rgba(14, 14, 14, 0.7);
 }
-.recent-section-2{
+.recent-section-2 {
   flex-direction: row-reverse;
   margin-top: 24px;
   justify-content: space-between;
 }
-.recent-text-description{
+.recent-text-description {
   margin-bottom: 32px;
+}
+
+/* donate section */
+.donate-today {
+  color: rgb(14, 14, 14);
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 48px;
+  margin-bottom: 24px;
+}
+.donate-description {
+  color: rgba(14, 14, 14, 0.7);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+}
+.donate {
+  text-align: center;
+  width: 1100px;
+  margin: 0 auto;
+  margin-top: 80px;
+  margin-bottom: 32px;
+}
+
+.taka-cards {
+  display: flex;
+  justify-content: space-between;
+}
+.taka-cards .card {
+  color: rgba(14, 14, 14, 0.8);
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 48px;
+  width: 264px;
+  height: 128px;
+  padding: 40px;
+  background-color: white;
+  border-radius: 16px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid rgba(14, 14, 14, 0.15);
+}
+.taka-cards .card:hover {
+  background-color: rgb(198, 228, 214);
+  cursor: pointer;
+  transform: scale(1.05);
+  transition: 0.2s ease-in-out;
+}
+.amount {
+  width: 97%;
+  height: 64px;
+  text-align: center;
+  border: none;
+  border-bottom: 1px solid rgba(14, 14, 14, 0.15);
+  margin: 0 auto;
+  margin-top: 32px;
+  color: rgb(198, 228, 214);
+}
+.amount::placeholder {
+  font-size: 20px;
+  font-weight: 400;
+}
+.other-amount {
+  display: flex;
+  justify-content: center;
+}
+.donate-section .btn {
+  width: 151px;
+  height: 56px;
+  background-color: #006a50;
+  border: none;
+  border-radius: 8px;
+  color: white;
+  font-size: 18px;
+  font-weight: 600;
+}
+.donate-btn {
+  text-align: center;
+  margin-top: 32px;
+}
+/* subscribe-section */
+.subscribe {
+  margin-top: 80px;
+  padding: 80px 100px;
+  background-color: rgb(198, 228, 214);
+  text-align: center;
+  margin-bottom: 160px;
+}
+
+.sub-title {
+  font-size: 40px;
+  font-weight: 700;
+}
+.sub-description {
+  display: flex;
+  justify-content: center;
+}
+.sub-description p {
+  width: 50%;
+  text-align: center;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  margin-top: 16px;
+  margin-bottom: 24px;
+}
+.subscribe input {
+  width: 600px;
+  height: 55px;
+  border: none;
+  border-radius: 8px 0px 0px 8px;
+  padding: 0 40px;
+}
+.subscribe button {
+  font-size: 18px;
+  font-weight: 600;
+  color: white;
+  background-color: rgb(0, 106, 80);
+  padding: 17px 34px 17px 34px;
+  border: none;
+  border-radius: 0 8px 8px 0px;
+  
+}
+.mix-up {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 25px;
 }
