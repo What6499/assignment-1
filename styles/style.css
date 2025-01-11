@@ -398,6 +398,7 @@ nav div h3 {
   border: none;
   border-radius: 8px 0px 0px 8px;
   padding: 0 40px;
+  outline: none;
 }
 .subscribe button {
   font-size: 18px;
