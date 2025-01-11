@@ -185,3 +185,30 @@ nav div h3 {
   position: absolute;bottom: 32px;
   border: none;
 }
+/* Dr. Muhammad Yunus section */
+.dr-yunus{
+  padding: 48px 24px;
+  background-color: white;
+  border-radius: 16px;
+  position: relative; 
+  background-repeat: no-repeat;
+  background-image: url(../assets/quote-bg.png);
+  background-position-y: 25px;
+  background-position-x: 24px;
+  background-size: 64px;
+  margin-top: 32px;
+  margin-bottom: 80px;
+}
+.dr-yunus .name{
+  font-weight: 500;
+  font-size: 20px;
+  color: rgba(14, 14, 14, 0.8);
+  margin-top: 12px;
+}
+.dr-yunus .position{
+  line-height: 24px;
+  color: rgba(14, 14, 14, 0.6);
+}
+.quote{
+  line-height: 24px;
+}
